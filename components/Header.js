@@ -32,7 +32,7 @@ function Header() {
 
   return (
     <header
-      className="flex flex-col sm:flex-row m-5
+      className="flex flex-col xl:flex-row m-5
      justify-between items-center h-auto  "
     >
       <div

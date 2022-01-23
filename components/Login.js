@@ -61,7 +61,7 @@ function Login() {
         onClick={() => {
           router.push("/");
         }}
-        className="mr-auto ml-auto mt-5 mb-20 object-contain w-52 forsmall:hidden"
+        className="mr-auto ml-auto mt-5 mb-20 object-contain w-52 hidden forsmall:hidden"
         src="https://i.ibb.co/FzBsVJh/AGRI-1.png"
         alt=""
       />
@@ -85,7 +85,7 @@ function Login() {
         <button
           onClick={signIn}
           type="submit"
-          className="bg-[#f0c14b] w-30 h-14 border-4 mx-8"
+          className="bg-slate-900w-30 h-14 border-4 mx-8"
         >
           sign in
         </button>
@@ -93,7 +93,7 @@ function Login() {
         <button
           onClick={register}
           type="submit"
-          className="whitespace-nowrap bg-[#bda15a] w-30 h-14 border-4 mx-8"
+          className="whitespace-nowrap bg-slate-900 w-30 h-14 border-4 mx-8"
         >
           create account
         </button>
