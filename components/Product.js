@@ -64,7 +64,7 @@ const Product = forwardRef(({ result }, ref) => {
         </p>
       </div>
       <div
-        className=" text-xl flex  justify-between px-20
+        className=" text-xl flex  justify-between px-20 forsmall:px-10
         space-x-16 items-center	  p-2 "
       >
         <p className="text-2xl">
