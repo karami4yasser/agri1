@@ -61,7 +61,7 @@ function Login() {
         onClick={() => {
           router.push("/");
         }}
-        className="mr-auto ml-auto mt-5 mb-20 object-contain w-52"
+        className="mr-auto ml-auto mt-5 mb-20 object-contain w-52 forsmall:hidden"
         src="https://i.ibb.co/FzBsVJh/AGRI-1.png"
         alt=""
       />
@@ -69,14 +69,14 @@ function Login() {
         <form>
           <h5>e-mail</h5>
           <input
-            className="h-8  mb-5 "
+            className="h-8 px-2 mb-5 bg-slate-900 "
             type="text"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
           <h5>password</h5>
           <input
-            className="h-8 w-auto mb-5 "
+            className="h-8 px-2  w-auto mb-5 bg-slate-900  "
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
